@@ -73,23 +73,29 @@ nav form input {
 .shadow {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
-.bg-ar-1 {
+.overflow-h {
+	overflow: hidden;
+}
+.bg-ar:hover,
+.bg-ar:focus {
+	transform: scale(1.2);
+}
+.bg-ar {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+	transition: all .5s;
+}
+.wp-1 {
 	background-image: url(../img/ar-1.jpg);
-	background-size: cover;
-	background-position: center;
-	min-height: 300px;
 }
-.bg-ar-2 {
+.wp-2 {
 	background-image: url(../img/ar-2.jpg);
-	background-size: cover;
-	background-position: center;
-	min-height: 300px;
 }
-.bg-ar-3 {
+.wp-3 {
 	background-image: url(../img/ar-3.jpg);
-	background-size: cover;
-	background-position: center;
-	min-height: 300px;
 }
 .vid {
 	background-color: #121212;
