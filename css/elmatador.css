@@ -73,9 +73,6 @@ nav form input {
 .shadow {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
-.overflow-h {
-	overflow: hidden;
-}
 .bg-ar:hover,
 .bg-ar:focus {
 	transform: scale(1.2);
@@ -129,7 +126,13 @@ nav form input {
 	position:absolute;
 }
 .contact a {
+	text-decoration: none;
 	color: #212529;
+	transition: all .2s;
+}
+.contact a:hover {
+	color: #66a3ff;
+	transition: all .2s;
 }
 .ariful {
 	color: #f25c00;
