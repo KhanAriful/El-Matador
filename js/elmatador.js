@@ -1,9 +1,11 @@
-// Preloader
+/* Preloader */
 window.onload = function(){
   var el = document.getElementById('preload');
   el.style.display = 'none';
 };
-// Progress Bar
+/* Smooth Scroll */
+var scroll = new SmoothScroll('a[href*="#"]');
+/* Progress Bar */
 window.onscroll = function() {elMatador()};
 function elMatador() {
   var x = document.body.scrollTop || document.documentElement.scrollTop;

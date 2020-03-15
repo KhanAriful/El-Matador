@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/El-Matador/static/js/main.329bb090.chunk.js",
+    "main.js.map": "/El-Matador/static/js/main.329bb090.chunk.js.map",
+    "runtime-main.js": "/El-Matador/static/js/runtime-main.c2bd26ca.js",
+    "runtime-main.js.map": "/El-Matador/static/js/runtime-main.c2bd26ca.js.map",
+    "static/js/2.8c282a96.chunk.js": "/El-Matador/static/js/2.8c282a96.chunk.js",
+    "static/js/2.8c282a96.chunk.js.map": "/El-Matador/static/js/2.8c282a96.chunk.js.map",
+    "index.html": "/El-Matador/index.html",
+    "precache-manifest.cd51e8664aec7f92651d37b83f0eee14.js": "/El-Matador/precache-manifest.cd51e8664aec7f92651d37b83f0eee14.js",
+    "service-worker.js": "/El-Matador/service-worker.js",
+    "static/js/2.8c282a96.chunk.js.LICENSE.txt": "/El-Matador/static/js/2.8c282a96.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2bd26ca.js",
+    "static/js/2.8c282a96.chunk.js",
+    "static/js/main.329bb090.chunk.js"
+  ]
+}
